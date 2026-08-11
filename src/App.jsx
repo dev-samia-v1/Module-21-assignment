@@ -9,7 +9,8 @@ import studentImg from './assets/img.jpg';
 function App() {
   const studentData = {
     name: "Samia Akther",
-    id: "25105(Inter 2nd year)",
+    id: "25105",
+    level: "Inter 2nd Year",
     department: " Science ",
     email: "iffatsamia7@gmail.com",
     image: studentImg, 
