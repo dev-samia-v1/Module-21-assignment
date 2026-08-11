@@ -23,6 +23,9 @@ function StudentInfo({ student }) {
       {/* Conditional Rendering & Props Data */}
       {showDetails && (
         <div className="details-section">
+           <p>
+  <strong>Level:</strong> {student.level}
+</p>
           <p><strong>Department:</strong> {student.department}</p>
           <p><strong>Email:</strong> {student.email}</p>
           
